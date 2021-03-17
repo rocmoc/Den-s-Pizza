@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+Den's Pizza </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--aici este un comentariu-->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script src="https://use.fontawesome.com/767155eaee.js"></script>
+	<script src="js/scripts.js"></script>
+</head>
+
+<body onload="getYear()">
+	
+<div class="header">
+	<div class="logo">
+		<img src="images/logo.png" alt="Logo" />
+	</div>
+	<div class="nav" id="myNav">
+	  <a href="#" onclick="hideMenu()">
+Den's Pizza </a>
+	  <a href="#about" onclick="hideMenu()">Despre</a>
+	  <a href="#products" onclick="hideMenu()">Produse</a>
+	  <a href="#pricelist" onclick="hideMenu()">Price list</a>
+	  <a href="#contacts" onclick="hideMenu()">Contacte</a>
+	  
+	 
+	  <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()"><i class="fa fa-bars"></i></a>
+	</div>
+</div>
+<!--slider-->
+
+<div class="slideshow-container">
+  <div class="slide anim">
+	<div class="numbertext">1 / 5</div>
+	<img src="images/slider1.jpg">
+    <div class="text">Te așteptăm oricând </div>
+  </div>
+  <div class="slide anim">
+    <div class="numbertext">2 / 5</div>
+    <img  src="images/slider2.jpg">
+    <div class="text">Pizza este mereu fierbinte.</div>
+  </div>
+  <div class="slide anim">
+    <div class="numbertext">3 / 5</div>
+    <img src="images/slider3.jpg">
+    <div class="text">Chiar și pasta.</div>
+  </div>
+  <div class="slide anim">
+    <div class="numbertext">4 / 5 </div>
+    <img src="images/sala.jpg">
+    <div class="text11">Intr-o atmosfera de armonie.</div>
+  </div>
+  <div class="slide anim">
+    <div class="numbertext">5 / 5</div>
+	<div class="orar">
+		<h2>ORAR</h2>
+		<h3>Luni - Vineri:</h3>
+		<h3>10:00 - 23:00 </h3>
+		<h3>Sâmbătă - Duminică:</h3>
+		<h3>9:00-23:00</h3>
+	</div>
+    <div class="text">Den's Pizza</div>
+  </div>
+</div>
+
+<!--despre produse-->
+<hr id="about" />
+<br>
+<div class="about">
+	<h1>Pizza - Pentru oricine si ori unde.</h1>
+	
+	<div class="main-paragraph text-paragraph">
+		<p>Pizza este un fel de mâncare cu originea în Napoli, Italia. Este o pâine plată, de obicei rotundă, acoperită cu sos de roșii și brânză, plus alte topping-uri opționale, preparată la cuptor.</p>
+		<p>Pissa este un termen latin, apărut în secolul IX, care înseamnă "pâine plată". Începând cu secolul XIV a căpătat sensul de "pâine plată acoperită cu brânză" în limba italiană. Un om care se pricepe la prepararea pizzei se numește "pizzaiolo", iar un restaurant care servește pizza se numește "pizzerie" (it. pizzeria). De la multe pizzerii se poate comanda și la domiciliu, prin telefon sau internet. Pizza se găsește, de asemenea, în supermarket-uri, sub formă congelată.</p>
+	</div>
+</div>
+<!--produsele-->
+<hr  id="products" />
+<br>
+<div class="products">
+    <div class="description_prod">
+        <h1>Produsele noastre</h1>
+        <p>Cele mai solicitate produse de către clienții noștri...</p>
+    </div>
+    <div class="cards_prod">
+    <div class="card">
+	<a href="pages/diavola.html">
+        <img src="images/diavola.jpg" alt="cappuccino" class="photo_prod" />
+        <h3>Diavola</h3>
+        <p>Des solicitat de barbati adevarati.</p>
+	</a>
+    </div>
+    <div class="card">
+	<a href="pages/margherita.html">
+        <img src="images/MARGHERITA.jpg" alt="latte" class="photo_prod" />
+        <h3> Margherita </h3>
+        <p>Produsul des întrebat de domnisoare.</p>
+	</a>
+    </div>
+    <div class="card">
+	<a href="pages/napoletana.html">
+        <img src="images/Napoletana.jpg" alt="espresso" class="photo_prod" />
+        <h3>Napoletana</h3>
+        <p>Produsul este des cumpărat de bărbați...</p>
+    </a>
+	</div>
+    </div>
+</div>  
+<!--contactele-->
+<hr id="contacts" />
+<br>
+<div class="contacts">
+	<h2>Cum ne găsiți?</h2>
+	<div class="coord">
+		<div class="blok_coord">
+		<div>
+			<span class="ico1"><i class="fa fa-map-marker"></i></span>
+		</div>
+		<div class="txt">
+			<p>Chisinaului 44,Anenii Noi, Moldova </p>
+		</div>
+		</div>
+		<div class="blok_coord">
+		<div>
+			<span class="ico"><i class="fa fa-at"></i></span>
+		</div>
+		<div class="txt">	
+			<p>https://www.facebook.com/denspizza1/</p>
+		</div>
+		</div>
+		<div class="blok_coord">
+		<div>
+			<span class="ico"><i class="fa fa-phone"></i></span>
+		</div>
+		<div class="txt">
+			<p>0790 00 488</p>
+		</div>
+		</div>
+	</div>
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2726.9124258692896!2d29.215461015605566!3d46.88477137914339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f5ea1b879f7a323!2sDen&#39;s%20Pizza!5e0!3m2!1sen!2s!4v1598601725158!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+</div>
+<hr id="pricelist" />
+<br>
+<div class="about">
+	<h1>Price list</h1>
+	<a href="images/11.jpg"><h1>List 1</h1></a>
+	<br>
+	<a href="images/12.jpg"><h1>List 2</h1></a>
+	
+	</div>
+</div>
+<!--subsolul paginii-->
+<div class="footer">
+	<h3><span class="copy">&copy;</span> Copy <span id="year"></span></h3>
+	<p>https://www.facebook.com/rada.grosu, 069714106</p>
+</div>
+
+<script src="js/script_slider.js"></script>
+</body>
+</html>
